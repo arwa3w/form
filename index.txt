@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="arwa"></p>
+<form>
+<label>name</label>
+<input type="name" value="name" readonly />
+<br/>
+<label>email</label>
+<input type="email" value="email" disabled />
+<br/>
+<label>password</label>
+<input type="password" required placeholder="password" autofocus min="5" max="10"/>
+<br/>
+<label>time</label>
+<input type="time"/>
+<br/>
+<label>color</label>
+<input type="color"/><br/>
+<label>Date</label>
+<input type="Date"/><br/>
+<input type="radio"> <label>html</label><br/>
+<input type="checkbox"> <label>css</label><br/>
+<input type="radio"> <label>js</label><br/>
+<input type="file" multiple /><br/>
+<input list ="lang">
+<datalist id ="lang">
+<option value="html"/>
+<option value="css"/>
+<option value="c++"/>
+<option value="c"/>
+<option value="php"/>
+</datalist> <br/>
+<select>
+<option>html</option>
+<option>css</option>
+<option>js</option>
+<option>php</option>
+<option>c</option>
+<option>c++</option>
+</select>
+<br/>
+
+<textarea name="" id="" cols="50" rows="30"></textarea>
+<br/>
+
+
+
+<button>submit</button><br/>
+
+
+
+
+</form>
